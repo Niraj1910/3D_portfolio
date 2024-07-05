@@ -43,10 +43,10 @@ const Navbar = ({ isDarkMode, setisDarkMode }) => {
             alt="logo"
             className="w-20 h-20 object-contain rounded-full"
           />
-          <p className="sm:block hidden text-white text-[18px] font-bold cursor-pointer flex">
-            Niraj &nbsp;{" "}
-            <span className="sm:block hidden">| Software Developer</span>
-          </p>
+          <p className="hidden sm:flex text-white text-[18px] font-bold cursor-pointer">
+  Niraj &nbsp;
+  <span className="hidden sm:block">| Software Developer</span>
+</p>
         </Link>
         <div className="flex gap-5 lg:ml-56">
           <button
