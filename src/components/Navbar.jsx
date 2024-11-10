@@ -6,7 +6,7 @@ import { logo, menu, close } from "../assets";
 import { IoIosMoon, IoMdDownload } from "react-icons/io";
 
 import { MdSunny } from "react-icons/md";
-import resume from "../../public/resume.pdf";
+import resume from "/resume.pdf";
 
 const Navbar = ({ isDarkMode, setisDarkMode }) => {
   const [active, setActive] = useState("");
@@ -44,9 +44,9 @@ const Navbar = ({ isDarkMode, setisDarkMode }) => {
             className="w-20 h-20 object-contain rounded-full"
           />
           <p className="hidden sm:flex text-white text-[18px] font-bold cursor-pointer">
-  Niraj &nbsp;
-  <span className="hidden sm:block">| Software Developer</span>
-</p>
+            Niraj &nbsp;
+            <span className="hidden sm:block">| Software Developer</span>
+          </p>
         </Link>
         <div className="flex gap-5 lg:ml-56">
           <button

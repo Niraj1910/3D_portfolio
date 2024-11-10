@@ -27,9 +27,11 @@ import {
 
 import hoichoi from "../assets/company/hoichoi.png";
 import snapgram from "../assets/snapgram.png";
-import kmoviez from "../assets/kmoviez.png";
 import snapgramlogo from "../assets/snapgramlogo.svg";
+import kmoviez from "../assets/kmoviez.png";
 import kmoivezlogo from "../assets/kmoviezlogo.png";
+import chatifylogo from "../assets/chatify-logo.svg";
+import chatify from "../assets/chatify.png";
 
 export const navLinks = [
   {
@@ -153,6 +155,37 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Chatify",
+    description:
+      "I spearheaded the development of Chatify, an advanced chat application that enables real-time communication. Built with React, Node.js, MongoDB, and WebSocket, Chatify supports seamless, real-time messaging and features video and audio calling using WebRTC technology. Leveraging MongoDB for efficient data storage and retrieval, the application ensures conversations persist across sessions. With WebSocket for low-latency message delivery and Redis Pub/Sub to support multiple server instances, Chatify provides a responsive and scalable communication experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatify,
+    image_logo: chatifylogo,
+    source_code_link: "https://github.com/Niraj1910/Chatify_Frontend",
+    link_to_website: "https://chatify-frontend-rvit.vercel.app/",
+  },
   {
     name: "SnapGram",
     description:
